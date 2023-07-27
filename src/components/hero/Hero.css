@@ -110,6 +110,7 @@
     right: 4rem;
     top: 7rem;
   }
+
   .heart-rate>:nth-child(2){
 color: var(--gray);
   }
@@ -117,6 +118,31 @@ color: var(--gray);
     color: white;
     font-size: 1.5rem;
   }
+
+  .live{
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background-color:red;
+    animation: pulse 1500ms infinite;
+    position: relative;
+left: 15.6rem;
+top: 14.5rem;
+z-index: 1;
+
+
+}
+@keyframes pulse{
+0%{
+    box-shadow:red 0 0 0 0;
+}
+75%{
+    box-shadow: #ff69b400 0 0 0 30px;
+}
+
+
+}
+
 
   .hero-image{
     width: 23rem;

@@ -54,24 +54,25 @@ const Hero = () => {
 
             </div>
             <div className="right-h">
+                <div className='live'></div>
                 <button className='btn'>Join Now</button>
                 <div className="heart-rate">
                     <img alt='' src={Heart_image} />
                     <span>Heart rate</span><span>116 bpm</span>
                 </div>
-            {/* hero images */}
-            <img alt='' src={hero_image} className='hero-image' />
-            <img alt='' src={hero_image_back} className='hero-image-back' />
+                {/* hero images */}
+                <img alt='' src={hero_image} className='hero-image' />
+                <img alt='' src={hero_image_back} className='hero-image-back' />
 
-            <div className="calorie">
-<img alt='' src={calories_image}/>
-<div>
-<span>Calories Burned</span>
-<span>220kcal</span>
+                <div className="calorie">
+                    <img alt='' src={calories_image} />
+                    <div>
+                        <span>Calories Burned</span>
+                        <span>220kcal</span>
 
-</div>
+                    </div>
 
-            </div>
+                </div>
             </div>
 
         </div>
